@@ -7,8 +7,13 @@ import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import cors from 'cors';
 
+// importing routes
+import postRoutes from './routes/posts.js';
+
 // using an express
 const app = express();
+
+app.use('/posts', postRoutes);
 
 // implementing default middlewares that provided by express
 app.use(bodyParser.json({ limit: '30mb', extended: true }));
