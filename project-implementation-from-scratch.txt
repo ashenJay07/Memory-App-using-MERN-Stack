@@ -1,0 +1,38 @@
+1. Reference Link - https://www.youtube.com/watch?v=ngc9gnGgUdA
+
+2. Creating two folders as follows:
+      - client: for front-end 
+      - server: for back-end
+
+3. inside server folder
+        + create 'index.js' file as main file
+        + create package.json => npm init -y
+
+4. installing server-side dependencies (eg: npm install express --- OR --- npm i express)
+        + body-parser
+        + cors
+        + express
+        + mongoose
+        + nodemon
+
+5. import all installed dependencies into server-side 'index.js' file 
+        + eg: import express from 'express';   // ES6
+
+        + If you want to import packages like in ES5,
+              1- open package.json
+              2- add following statement under the => "main": "index.js"
+                      add: "type": "module"
+
+
+6. Initialize React project inside of 'client' folder
+        + npx create-react-app ./
+
+7. Installing client-side dependencies
+        + axios
+        + moment
+        + react-file-base64
+        + redux
+        + redux-thunk
+
+8. Delete default 'src' folder create a new one 
+        + inside new folder: create => index.js file (client side)
