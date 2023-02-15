@@ -33,6 +33,10 @@
         + react-file-base64
         + redux
         + redux-thunk
+        + @material-ui/core --force
 
 8. Delete default 'src' folder create a new one 
         + inside new folder: create => index.js file (client side)
+
+9. Using material-ui components such as containers, grids, cards
+        + https://mui.com/material-ui/getting-started/overview/
